@@ -9,11 +9,9 @@
         android:shortcutDisabledMessage="@string/app_name">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="com.example.shortcutforandroid"
-            android:targetClass="com.example.shortcutforandroid.ShortCutActivity" />
+            android:targetPackage="com.kalyani.shortcutforandroid"
+            android:targetClass="com.kalyani.shortcutforandroid.ShortCutActivity" />
         <categories android:name="android.shortcut.conversation" />
     </shortcut>
     <!-- Specify more shortcuts here. -->
-
-
 </shortcuts>
