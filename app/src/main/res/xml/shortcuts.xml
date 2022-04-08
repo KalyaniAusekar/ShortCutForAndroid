@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="compose"
+        android:enabled="true"
+        android:icon="@drawable/face"
+        android:shortcutShortLabel="@string/app_name"
+        android:shortcutLongLabel="@string/app_name"
+        android:shortcutDisabledMessage="@string/app_name">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.shortcutforandroid"
+            android:targetClass="com.example.shortcutforandroid.ShortCutActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+
+
+</shortcuts>
